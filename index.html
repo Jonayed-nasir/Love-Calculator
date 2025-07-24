@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Calculator - Jonayed Edition 😍</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>জোনায়েড ক্যালকুলেশন বলছে 😊...</h2>
+    
+    <div class="form">
+      <input type="text" id="name1" placeholder="তোমার নাম লিখো">
+      <input type="text" id="name2" placeholder="তোমার প্রিয়জনের নাম লিখো">
+      <button onclick="calculateLove()">চেক করো ❤️</button>
+    </div>
+
+    <div class="result" id="resultBox" style="display: none;">
+      <h3 id="nameDisplay"></h3>
+      <p id="loveText"></p>
+      <div class="circle">
+        <span id="percentage">0%</span>
+      </div>
+      <div class="couple">
+        👰 🤵
+      </div>
+      <button onclick="resetForm()">আবার চেক মারো 🙂</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
